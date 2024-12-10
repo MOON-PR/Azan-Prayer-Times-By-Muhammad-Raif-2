@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Azan Prayer Times</title>
+    
+    <!-- Favicon for Browser Tab -->
+    <link rel="icon" type="image/png" href="Leonardo_Phoenix_A_serene_digital_illustration_featuring_a_cal_3.jpg">
+    
+    <!-- Apple Touch Icon for Mobile Browsers -->
+    <link rel="apple-touch-icon" type="image/png" href="Leonardo_Phoenix_A_serene_digital_illustration_featuring_a_cal_3.jpg">
+    
+    <!-- Open Graph Image for Sharing -->
+    <meta property="og:image" content="Leonardo_Phoenix_A_serene_digital_illustration_featuring_a_cal_3.jpg">
+    
+    <!-- Additional Metadata -->
+    <meta property="og:title" content="Azan Prayer Times By Muhammad Raif">
+    <meta property="og:description" content="Accurate prayer timings with notifications.">
+    <meta property="og:type" content="website">
+    
+    <!-- Link to CSS -->
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <h1 id="header-title">Azan Prayer Times By Muhammad Raif</h1>
+        <p id="header-description">Accurate prayer timings with notifications By Muhammad Raif</p>
+    </header>
+
+    <div class="container">
+        <div>
+            <label id="language-label" for="language-selector">Select Language:</label>
+            <select id="language-selector" onchange="changeLanguage()"></select>
+        </div>
+
+        <div id="location-info"></div>
+        <h2 id="prayer-heading">Today's Prayer Times</h2>
+        <div id="prayer-times">
+            <p>Fetching prayer times...</p>
+        </div>
+        <div class="dua" id="dua"></div>
+    </div>
+
+    <footer>
+        &copy; 2024 Azan Prayer Times By Muhammad Raif. All rights reserved Muhammad Raif.
+    </footer>
+
+    <!-- Audio elements for Fajr and other azans -->
+    <audio id="fajr-alarm-sound" src="fajr-azan.mp3"></audio>
+    <audio id="azan-alarm-sound" src="azan1.mp3"></audio>
+
+    <!-- Link to JavaScript -->
+    <script src="index.js"></script>
+</body>
+</html>
